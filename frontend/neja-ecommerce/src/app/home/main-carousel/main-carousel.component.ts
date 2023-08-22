@@ -15,16 +15,17 @@ export class MainCarouselComponent {
   interval: any;
 
   ngOnInit() {
-    this.carouselData = homeCarouselData
+    this.carouselData = homeCarouselData;
+    this.autoPlay()
   }
 
   autoPlay() {
     setInterval(() => {
       this.nextSlide();
-    }, 2000)
+    }, 55000)
   }
 
   nextSlide() {
-    this.currentSlide = this.currentSlide % this.carouselData.length
+    this.currentSlide = (this.currentSlide + 1) % this.carouselData.length;
   }
 }
