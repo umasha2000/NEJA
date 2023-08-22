@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+// Import statement at the top of main-carousel.component.ts
+import { homeCarouselData } from '../../Data/mainCarousel';
+
 
 @Component({
   selector: 'app-main-carousel',
