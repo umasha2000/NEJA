@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-product-slider',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./product-slider.component.scss']
 })
 export class ProductSliderComponent {
-
+  @Input() title: any
+  @Input() products: any
 }
