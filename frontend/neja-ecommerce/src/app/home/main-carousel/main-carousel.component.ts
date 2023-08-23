@@ -22,7 +22,7 @@ export class MainCarouselComponent {
   autoPlay() {
     setInterval(() => {
       this.nextSlide();
-    }, 55000)
+    }, 3000)
   }
 
   nextSlide() {

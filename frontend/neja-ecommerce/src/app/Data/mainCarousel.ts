@@ -12,6 +12,10 @@ export const homeCarouselData = [
     {
         image: "../../assets/images/mainCarousel3.png",
         path: "/women/clothing/dress"
+    },
+    {
+        image: "../../assets/images/mainCarousel4.png",
+        path: "/women/clothing/dress"
     }
 ]
 
