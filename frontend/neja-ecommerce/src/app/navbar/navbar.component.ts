@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  openNavbarContent(menu: any) {
+
+  }
+
+  navigateTo(path: any) {
+
+  }
+
 }
