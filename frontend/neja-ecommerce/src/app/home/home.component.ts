@@ -10,7 +10,9 @@ import { menJeans } from '../Data/Men/men_jeans';
 export class HomeComponent {
   menJeans: any
 
+
   ngOnInit() {
     this.menJeans = menJeans.slice(0, 5)
+
   }
 }
