@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { menJeans } from '../Data/Men/men_jeans'
+import { menJeans } from '../Data/Men/men_jeans';
+
 
 @Component({
   selector: 'app-home',
@@ -9,7 +10,7 @@ import { menJeans } from '../Data/Men/men_jeans'
 export class HomeComponent {
   menJeans: any
 
-  ngOnTnit() {
+  ngOnInit() {
     this.menJeans = menJeans.slice(0, 5)
   }
 }
