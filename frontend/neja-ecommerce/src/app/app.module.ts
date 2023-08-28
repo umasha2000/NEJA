@@ -9,7 +9,7 @@ import { HomeProductCardComponent } from './home/home-product-card/home-product-
 import { ProductSliderComponent } from './home/product-slider/product-slider.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
-import { NavContentComponent } from './nav-content/nav-content.component';
+import { NavContentComponent } from './navbar/nav-content/nav-content.component';
 
 @NgModule({
   declarations: [
