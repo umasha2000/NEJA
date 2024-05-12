@@ -1,5 +1,3 @@
-# NEJA-ecommerce
-An e-commerce platform that offers user-friendly features
-such as account creation, extensive product catalogs,
-advanced search options, secure checkout, and order tracking
-for online shopping.
+# NEJA
+Skincare Ingredient Checker
+Analyze any product for a science-backed breakdown of its ingredients
